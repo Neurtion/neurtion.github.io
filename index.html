@@ -1,312 +1,672 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 <head>
-  <title>Neurtion</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="Neurtion">
-  <meta name="keywords" content="yazılım,web tasarım,e-ticaret,web design, software, ankara yazılım, e-commerce, html, sass, jquery">
-  <meta name="author" content="Tuğra Batın">
-  <link rel="stylesheet" href="assets/css/main.css">
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Neurtion</title>
+    <meta name="description" content="software">
+    <meta name="author" content="Neurtion">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    <link rel="icon" href="images/icon.png" type="image/x-icon">
+
 </head>
-<body>
-  <script type=”text/JavaScript”>// <![CDATA[ function disableselect(e){ return false } function reEnable(){ return true } document.onselectstart=new Function (“return false”) if (window.sidebar){ document.onmousedown=disableselect document.onclick=reEnable } // ]]></script>
-<SCRIPT LANGUAGE="Javascript"><!--
-// ***********************************************
-// Bu kodu www.zekican.net adresinden aldınız..
-// ***********************************************
-var isNS = (navigator.appName == "Netscape") ? 1 : 0;
-var EnableRightClick = 0;
-if(isNS)
-document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
-function mischandler(){
-if(EnableRightClick==1){ return true; }
-else {return false; }
-}
-function mousehandler(e){
-if(EnableRightClick==1){ return true; }
-var myevent = (isNS) ? e : event;
-var eventbutton = (isNS) ? myevent.which : myevent.button;
-if((eventbutton==2)||(eventbutton==3)) return false;
-}
-function keyhandler(e) {
-var myevent = (isNS) ? e : window.event;
-if (myevent.keyCode==96)
-EnableRightClick = 1;
-return;
-}
-document.oncontextmenu = mischandler;
-document.onkeypress = keyhandler;
-document.onmousedown = mousehandler;
-document.onmouseup = mousehandler;
-//-->
-</script>
-<!-- notification for small viewports and landscape oriented smartphones -->
-<div class="device-notification">
-  <a class="device-notification--logo" href="#0">
-    <img src="assets/img/logo.png" alt="Neurtion">
-    <p>Neurtion</p>
-  </a>
-  <p class="device-notification--message">Neurtion has so much to offer that we must request you orient your device to portrait or find a larger screen. You won't be disappointed.</p>
-</div>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1681285483347075"
-     crossorigin="anonymous"></script>
 
-<div class="perspective effect-rotate-left">
-  <div class="container"><div class="outer-nav--return"></div>
-    <div id="viewport" class="l-viewport">
-      <div class="l-wrapper">
-        <header class="header">
-          <a class="header--logo" href="#0">
-            <img src="assets/img/logo.png" alt="Neurtion">
-            <p>N E U R T I O N ®</p>
-          </a>
-          <button class="header--cta cta">Hire Us</button>
-          <div class="header--nav-toggle">
-            <span></span>
-          </div>
-        </header>
-        <nav class="l-side-nav">
-          <ul class="side-nav">
-            <li class="is-active"><span>Home</span></li>
-            <li><span>Services</span></li>
-            <li><span>About</span></li>
-            <li><span>Contact</span></li>
-            <li><span>Hire us</span></li>
-          </ul>
-        </nav>
-        <ul class="l-main-content main-content">
-          <li class="l-section section section--is-active">
-            <div class="intro">
-              <div class="intro--banner">
-                <h1>Launched<br>Solutions<br>into Space</h1>
-                <button class="cta">Hire Us
-                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                  </g>
-                  </svg>
-                  <span class="btn-background"></span>
-                </button>
-                <img src="assets/img/introduction-visual.png" alt="Welcome">
-              </div>
-              <div class="intro--options">
-                <a href="#0">
-                  <h3>What are we doing ?</h3>
-                  <p>We produce modern solutions that are constantly growing and developing.</p>
-                </a>
-                <a href="#0">
-                  <h3>Services</h3>
-                  <p>Customized and unique experiences for brands of all sizes</p>
-                </a>
-                <a href="#0">
-                  <h3>ideas gain value with us</h3>
-                  <p>More than a few ideas on design and development..</p>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li class="l-section section">
-            <div class="work">
-              <h2>Browse Our Services</h2>
-              <div class="work--lockup">
-                <ul class="slider">
-                  <li class="slider--item slider--item-left">
-                    <a href="#0">
-                      <div class="slider--item-image">
-                        <img src="assets/img/webservice.jpg" alt="E-COMMERCE">
-                      </div>
-                      <p class="slider--item-title">WEB SERVİCES</p>
-                      <p class="slider--item-description">Working principle of your business to improve your needs appropriate technological infrastructure and we provide consultancy.</p>
-                    </a>
-                  </li>
-                  <li class="slider--item slider--item-center">
-                    <a href="#0">
-                      <div class="slider--item-image">
-                        <img src="assets/img/softwareservice.jpg" alt="WEB DESİGNh">
-                      </div>
-                      <p class="slider--item-title">SPECIAL SOFTWARE SERVICES</p>
-                      <p class="slider--item-description">Let us guide you to the digital world!</p>
-                    </a>
-                  </li>
-                  <li class="slider--item slider--item-right">
-                    <a href="#0">
-                      <div class="slider--item-image">
-                        <img src="assets/img/socialservice.jpg" alt="UX/UI TASARIM">
-                      </div>
-                      <p class="slider--item-title">SOCIAL MEDIA SERVICES</p>
-                      <p class="slider--item-description">Result-focused social media works and more..</p>
-                    </a>
-                </ul>
-                <div class="slider--prev">
-                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
-                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
-                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
-                  </g>
-                  </svg>
-                </div>
-                <div class="slider--next">
-                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                  </g>
-                  </svg>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="l-section section">
-            <div class="about">
-              <div class="about--banner">
-                <h2>We<br>believe <br>in real<br>solutions</h2>
-                <a href="mailto:info@neurtion.com">Our Software and Technology Consultancy service is provided within the scope of determining the technological infrastructure and information technology solutions suitable for the needs of the enterprises, defining, supplying, executing and implementing the hardware and software components for the improvement of the working principle of the enterprises.
-                  <span>
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                    <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                      <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                    </g>
-                    </svg>
-                  </span>
-                </a>
-                <img src="assets/img/about-visual.png" alt="About Us">
-              </div>
-              <div class="about--options">
-                <a href="#0">
-                  <h3>Creativity</h3>
-                </a>
-                <a href="#0">
-                  <h3>Development</h3>
-                </a>
-                <a href="#0">
-                  <h3>Marketing</h3>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li class="l-section section">
-            <div class="contact">
-              <div class="contact--lockup">
-                <div class="modal">
-                  <div class="modal--information">
-                    <p>Asagi Eglence, Meseli Street, Turkey</p>
-                    <a href="mailto:info@neurtion.com">info@neurtion.com</a>
-            <!----       <a href="tel:+148126287560">+48 12 628 75 60</a> --->
-                  </div>
-                  <ul class="modal--options">
-                    <li><a href="https://www.instagram.com/neurtionsoft/">INSTAGRAM</a></li>
-                    <li><a href="#0">TWITTER</a></li>
-                    <li><a href="https://github.com/orgs/Neurtion/">GITHUB</a></li> <br>
-                  <li><a href="mailto:info@neurtion.com">Contact Us</a></li> 
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="l-section section">
-            <div class="hire">
-              <h2>You want us to do</h2>
-              <!-- checkout formspree.io for easy form setup -->
-              <form class="work-request">
-                <div class="work-request--options">
-                  <span class="options-a">
-                    <input id="opt-1" type="checkbox" value="app design">
-                    <label for="opt-1">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      App Design
-                    </label>
-                    <input id="opt-2" type="checkbox" value="graphic design">
-                    <label for="opt-2">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      Graphic Design
-                    </label>
-                    <input id="opt-3" type="checkbox" value="motion design">
-                    <label for="opt-3">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      Motion Design
-                    </label>
-                  </span>
-                  <span class="options-b">
-                    <input id="opt-4" type="checkbox" value="ux design">
-                    <label for="opt-4">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      UX Design
-                    </label>
-                    <input id="opt-5" type="checkbox" value="webdesign">
-                    <label for="opt-5">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      Webdesign
-                    </label>
-                    <input id="opt-6" type="checkbox" value="marketing">
-                    <label for="opt-6">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      Marketing
-                    </label>
-                  </span>
-                </div>
-                <div class="work-request--information">
-                  <div class="information-name">
-                    <input id="name" type="text" spellcheck="false">
-                    <label for="name">Name</label>
-                  </div>
-                  <div class="information-email">
-                    <input id="email" type="email" spellcheck="false">
-                    <label for="email">Email</label>
-                  </div>
-                </div>
-                 
-                <input type="submit" value="Send Request" >
-              </form>
-            </div>
-          </li>
-        </ul>
-      </div>
+
+<body id="top">
+    
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-jump">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
     </div>
-  </div>
-  <ul class="outer-nav">
-    <li class="is-active">Home</li>
-    <li>Services</li>
-    <li>About</li>
-    <li>Contact</li>
-    <li>Hire us</li>
-  </ul>
-</div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
-<script src="assets/js/functions-min.js"></script>
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+                <img src="images/logo.png" alt="Homepage">
+            </a>
+        </div> <!-- end header-logo -->
+
+        <nav class="header-nav">
+
+            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+
+            <h3>Navigate to</h3>
+
+            <div class="header-nav__content">
+                
+                <ul class="header-nav__list">
+                    <li><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                    <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+                    <li><a class="smoothscroll"  href="#services" title="services">Services</a></li>
+                    <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
+                    <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+                </ul>
+    
+                <p>Allow the Neuron to guide the process.</p>
+    
+                <ul class="header-nav__social">
+                    <li>
+                  
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/neurtionsoft"target="blank"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/neurtionsoft/" target="blank"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/company/neurtion" target="blank"><i class="fab fa-linkedin"></i></a>
+                    </li>
+                    <li>
+  
+                    </li>
+                </ul>
+
+            </div> <!-- end header-nav__content -->
+
+        </nav> <!-- end header-nav -->
+
+        <a class="header-menu-toggle" href="#0">
+            <span class="header-menu-icon"></span>
+        </a>
+
+    </header> <!-- end s-header -->
+
+
+    <!-- home
+    ================================================== -->
+    <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/neuron1.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="grid-overlay">
+            <div></div>
+        </div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <h1>
+                Neurtion
+                </h1>
+
+                <h3>
+                    Allow the Neuron to guide the process.
+                </h3>
+
+               
+
+                <div class="home-content__button">
+                    <a href="#about" class="smoothscroll btn btn--primary btn--large">
+                        More About Us
+                    </a>
+                    <a href="#contact" class="smoothscroll btn btn--large">
+                        Let's Talk
+                    </a>
+                </div>
+
+            </div> <!-- end home-content__main -->
+
+            <div class="home-content__scroll">
+                <a href="#about" class="scroll-link smoothscroll">
+                    Scroll
+                </a>
+            </div>
+
+        </div> <!-- end home-content -->
+
+        <ul class="home-social">
+            <li>
+               
+            </li>
+            <li>
+                <a href="https://twitter.com/neurtionsoft"target="blank" ><i class="fab fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/neurtionsoft/" target="blank"><i class="fab fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/company/neurtion" target="blank" ><i class="fab fa-linkedin" aria-hidden="true"></i><span>Linkedin</span></a>
+            </li>
+            <li>
+              
+            </li>
+        </ul> <!-- end home-social -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+
+        <div class="row section-header bit-narrow" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Who We Are</h3>
+                <h1 class="display-1">
+                We are Neurtion, We value ideas and work hard to turn them into products.
+                </h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row bit-narrow" data-aos="fade-up">
+            <div class="col-full">
+                <p class="lead">
+                    People are at the center of all we do. We operate in self-contained teams comprised of motivated and highly talented individuals from various backgrounds and disciplines. Regardless of the project we're working on, we value supporting one another and sharing our experiences.
+                </p>
+            </div>
+        </div> <!-- end about-desc -->
+
+        <div class="row bit-narrow">
+                
+            <div class="about-process process block-1-2 block-tab-full">
+
+                <div class="col-block item-process" data-aos="fade-up">
+                    <div class="item-process__text">
+                        <h4 class="item-title">Project Management</h4>
+                        <p>
+                            The project needs a combination of management, meticulousness, and know-how. The project management service provided by Neurtion guarantees that projects are thoroughly handled in accordance with the Neurtion Project Management Method.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-block item-process" data-aos="fade-up">
+                    <div class="item-process__text">
+                        <h4 class="item-title">Project Implementation</h4>
+                        <p>
+                            Its aim is to carry out good project analysis and planning, to build strong communication among stakeholders, and to secure the active engagement of the authorities, which we refer to as key users, in the project. By adding value to the projects, the successful completion of the project is ensured.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-block item-process" data-aos="fade-up">
+                    <div class="item-process__text">
+                        <h4 class="item-title">Custom Software Development</h4>
+                        <p>
+                            Our Special Software Development service is provided at the customer's request to meet the special software needs he has in relation to his activities; it includes the development and implementation processes running concurrently with the preliminary analysis, detailed analysis, and analysis report studies.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-block item-process" data-aos="fade-up">
+                    <div class="item-process__text">
+                        <h4 class="item-title">Post-project Support Service</h4>
+                        <p>
+                            Following Project Assist Service, Project Implementation, and Custom Software Development services; it is a service supplied to organizations to support users and handle new needs. On-site Support, Call Center, Remote Connection, and System Maintenance services are given based on the scale of the organizations' needs.
+                        </p>
+                    </div>
+                </div>
+
+            </div> <!-- end process -->
+
+        </div> <!-- end row -->
+
+    </section> <!-- end s-about -->
+
+
+    <!-- services
+    ================================================== -->
+    <section id='services' class="s-services target-section darker">
+
+        <div class="row section-header bit-narrow" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">What we do</h3>
+                <h1 class="display-1">
+                    We imagine, evaluate, build, and iterate.<br> We believe in the process of the Neuron..
+                </h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row bit-narrow services block-1-2 block-tab-full">
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <div class="item-service__icon">
+                    <i class="icon-star"></i>
+                </div>
+                <div class="item-service__text">
+                    <h3 class="item-title">Brand Identity</h3>
+                    <p>With Neurtion, you may learn the secrets of comprehensive and intelligent brand management.We are here to help you become a premier institution in your field.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <div class="item-service__icon">
+                    <i class="icon-group"></i>
+                </div>
+                <div class="item-service__text">
+                    <h3 class="item-title">Web Design</h3>
+                    <p>Web design is the design dimension of your website, which will be the first step in introducing your firm to the digital world and reflecting its identity. You give the first step in branding your organization with an effective website design.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <div class="item-service__icon">
+                    <i class="icon-pie-chart"></i>
+                </div>  
+                <div class="item-service__text">
+                    <h3 class="item-title">Marketing</h3>
+                    <p>We continue to create a difference in our industry by providing companies with innovative solutions from the idea stage to the execution stage, strategic social media account management tailored to corporations, and digital and social media marketing services.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <div class="item-service__icon">
+                    <i class="icon-link"></i>
+                </div>
+                <div class="item-service__text">
+                    <h3 class="item-title">Search Engines Optimization</h3>
+                    <p>The effort done to get your website to the top of search engines for related subjects is referred to as search engine optimization. Some changes should be done to your website in order for it to rank better for the keywords you want.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <div class="item-service__icon">
+                    <i class="icon-cube"></i>
+                </div>
+                <div class="item-service__text">
+                    <h3 class="item-title">Mobile Application</h3>
+                    <p>We accurately project your thoughts, and we develop outstanding apps for your unique scenarios by utilizing new mobile technology.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="col-block item-service" data-aos="fade-up">
+                <div class="item-service__icon"><i class="icon-lego-block"></i></div>
+                <div class="item-service__text">
+                    <h3 class="item-title">Special software</h3>
+                    <p>Everyone wants to be unique with unique software, and every organization wants to establish that they do not have the same design as each other and that they are superior to each other. 
+                    </p>
+                </div>
+            </div>
+
+        </div> <!-- end services -->
+
+    </section> <!-- end s-services -->
+
+
+    <!-- works
+    ================================================== -->
+    <section id="works" class="s-works target-section">
+
+        <div class="row section-header has-bottom-sep narrow target-section" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Our Works</h3>
+                <h1 class="display-1">
+                We create brands, products, and experiences that people love. Check out our recent works.
+                </h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row masonry-wrap">
+
+            <div class="masonry">
+    
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                            
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" title="Shutterbug" data-size="1050x700">
+                                <img src="images/portfolio/lady-shutterbug.jpg" 
+                                     srcset="images/portfolio/lady-shutterbug.jpg 1x, images/portfolio/lady-shutterbug@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Paranoia Diaries
+                            </h3>
+                            <p class="item-folio__cat">
+                                Branding & Web Desing
+                            </p>
+                        </div>
+
+                        <a href="" class="item-folio__project-link" title="Project link">
+                            <i class="icon-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>Branding & Web Desing</p>
+                        </div>
+
+                    </div>
+                </div> <!-- end masonry__brick -->
+    
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                            
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" title="Woodcraft" data-size="1050x700">
+                                <img src="images/portfolio/woodcraft.jpg" 
+                                     srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Grège
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Design & Marketing
+                            </p>
+                        </div>
+
+                        <a href="" class="item-folio__project-link" title="Project link">
+                            <i class="icon-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>Web Design & Marketing</p>
+                        </div>
+
+                    </div>
+                </div> <!-- end masonry__brick -->
+        
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                            
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-beetle.jpg" class="thumb-link" title="The Beetle Car" data-size="1050x700">
+                                <img src="images/portfolio/the-beetle.jpg"
+                                     srcset="images/portfolio/the-beetle.jpg 1x, images/portfolio/the-beetle@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Listacross
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Design
+                            </p>
+                        </div>
+
+                        <a href="" class="item-folio__project-link" title="Project link">
+                            <i class="icon-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>Web Design</p>
+                        </div>
+
+                    </div>
+                </div> <!-- end masonry__brick -->
+        
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                            
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-salad.jpg" class="thumb-link" title="Grow Green" data-size="1050x700">
+                                <img src="images/portfolio/salad.jpg" 
+                                     srcset="images/portfolio/salad.jpg 1x, images/portfolio/salad@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                L’Atelier 
+                            </h3>
+                            <p class="item-folio__cat">
+                                Branding & SEO & Web Design
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="icon-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>Branding & SEO & Web Design</p>
+                        </div>
+
+                    </div>
+                </div> <!-- end masonry__brick -->
+    
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                            
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-lamp.jpg" class="thumb-link" title="Guitarist" data-size="1050x700">
+                                <img src="images/portfolio/lamp.jpg" 
+                                     srcset="images/portfolio/lamp.jpg 1x, images/portfolio/lamp@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Revolt
+                            </h3>
+                            <p class="item-folio__cat">
+                                Mobile Application
+                            </p>
+                        </div>
+
+                        <a href="" class="item-folio__project-link" title="Project link">
+                            <i class="icon-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>Mobile Application</p>
+                        </div>
+
+                    </div>
+                </div> <!-- end masonry__brick -->
+        
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                            
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-fuji.jpg" class="thumb-link" title="Palmeira" data-size="1050x700">
+                                <img src="images/portfolio/fuji.jpg"
+                                     srcset="images/portfolio/fuji.jpg 1x, images/portfolio/fuji@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Makmay Group
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Design & SEO & Branding & Marketing
+                            </p>
+                        </div>
+
+                        <a href="https://makmaygroup.com" class="item-folio__project-link" title="Project link">
+                            <i class="icon-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>Web Design & SEO & Branding & Marketing</p>
+                        </div>
+
+                    </div>
+                </div> <!-- end masonry__brick -->
+    
+            </div> <!-- end masonry -->
+
+        </div> <!-- end masonry-wrap -->
+
+    </section> <!-- end s-works -->
+
+
+    <!-- clients
+    ================================================== -->
+    <section id="clients" class="s-clients target-section darker">
+
+        <div class="grid-overlay">
+            <div></div>
+        </div>
+
+        <div class="row section-header text-center narrow" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Our Clients</h3>
+                <h1 class="display-1">Who we have work with</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row clients-wrap" data-aos="">
+            <div class="col-twelve">
+                <ul class="clients">
+                    <li><a href="#0">Makmay</a></li>
+                    <li><a href="#0">L’Atelier</a></li>
+                    <li><a href="#0">Grab</a></li>
+                    <li><a href="#0">Miavento</a></li>
+                    <li><a href="#0">Vivid+Co</a></li>
+                    <li><a href="#0">Anva</a></li>
+                    <li><a href="#0">Korhus</a></li>
+                    <li><a href="#0">Listacross</a></li>
+                    <li><a href="#0">Ambidexter</a></li>
+                    <li><a href="#0">Revolt</a></li>
+                    <li><a href="#0">Grège</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+
+    </section> <!-- end s-clients -->
+
+
+    <!-- testimonies
+    ================================================== -->
+    
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact target-section">
+
+            <div class="grid-overlay">
+                <div></div>
+            </div>
+
+        <div class="row section-header narrow" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Keep In Touch</h3>
+                <h1 class="display-1">Feel free to contact us for any <br> project idea or collaboration</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row contact-main" data-aos="fade-up">
+            <div class="col-full">
+                <p class="contact-email">
+                    <a href="mailto:info@neurtion.com">info@neurtion.com</a>
+                </p>
+                <p class="contact-address">
+                    KU Campus Farabi street  <br>
+                    1. R&D Building
+                </p>
+                <p class="contact-numbers">
+                &nbsp; 
+                </p>
+
+                <ul class="contact-social">
+                    <li>
+                    
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/neurtionsoft" target="blank" ><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/neurtionsoft/" target="blank"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/company/neurtion" target="blank" ><i class="fab fa-linkedin"></i></a>
+                    </li>
+                    <li>
+ 
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="row">
+            <div class="col-full ss-copyright">
+                <span>© Copyright Neurtion 2022</span> 
+                <span>Allow the Neuron to guide the process. </span>
+            </div>
+        </div>
+
+        <div class="ss-go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top">Back to Top</a>
+        </div>
+    </footer>
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> <!-- end photoSwipe background -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
-</html>
